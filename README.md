@@ -1,4 +1,5 @@
 __GUJO__ - Gary's Unsigned Java Objects
+
 __Author__: Gary Hammock, PE
 
 #Description
@@ -15,9 +16,9 @@ The objects are extensions of the `java.lang.Number` class and implements the
 As an extension of `java.lang.Number`, the class definitions must include a
 serialVersionUID.  The generated UID for each class is as follows:
 
-    | Class    | serialVersionUID      |
-    | :------: | :-------------------: |
-    | UByte    | 1188939977661718941L  |
+| Class    | serialVersionUID      |
+| :------: | :-------------------: |
+| UByte    | 1188939977661718941L  |
 
 #Implementation
 
