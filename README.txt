@@ -18,6 +18,7 @@ As an extension of java.lang.Number, the class definitions must include a
 serialVersionUID.  The generated UID for each class is as follows:
 
     Class UByte serialVersionUID = 1188939977661718941L;
+    Class UInt  serialVersionUID =  677544056055698658L;
 
 ================================================================================
                                IMPLEMENTATION
@@ -25,9 +26,14 @@ serialVersionUID.  The generated UID for each class is as follows:
 
 Unsigned bytes:
     UByte myByte = new UByte();
-    
+    myByte.assign(0x42);
+
+Unsigned 32-bit integers:
+    UInt myInt = new UInt();
+    myInt.assign(123456);
+
 ================================================================================
-                                 FUTURE WORK
+                               Future Work
 ================================================================================
 
-Implementing Unsigned Words/Integers
+Implementing 64-bit long integers and 16-bit short integers.

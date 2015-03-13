@@ -6,7 +6,7 @@
  * 
  * @since 0.0.0
  * @author Gary Hammock, PE
- * @version 0.0.0
+ * @version 1.0.0
 */
 
-package GUJO;
+package gujo;
